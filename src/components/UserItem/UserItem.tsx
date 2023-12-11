@@ -22,7 +22,7 @@ export const UserItem: FC<UserItem> = memo(({user, index, isActive, handleChange
             <span className='user-item__number'>{index + 1}</span>
             <div className='user-item__image'>
                 <div className='user-item__image-wrapper'>
-                    <img src={user.photo}/>
+                    <img src={user.photo} alt='имага'/>
                 </div>
             </div>
             <div className='user-item__descriptions user-descriptions'>
